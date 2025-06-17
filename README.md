@@ -1,12 +1,44 @@
-# React + Vite
+# 🎯 Career Roadmap App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack web application that allows users to view predefined roadmap items and interact through **upvotes**, **comments**, and **threaded replies** — enabling collaboration, feedback, and community engagement.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Site
+[🔗 Click here to visit the live site](https://your-live-site-url.com)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+---
+
+## 🚀 Features
+
+- 🔐 **User Authentication**
+  - Email/password-based signup & login using Firebase
+  - Secure user state managed via React Context
+
+- 📋 **Roadmap Viewer**
+  - Predefined roadmap items fetched from the backend
+  - Items are filterable by **status** (e.g., "In Progress", "Completed")
+  - Users can sort by **popularity** (upvotes)
+
+- 👍 **Upvoting System**
+  - Logged-in users can upvote any roadmap item once
+  - Upvotes are persisted and shown live
+
+- 💬 **Commenting System**
+  - Add comments on any roadmap item
+  - Edit and delete your own comments
+  - Real-time comment updates
+
+- 🧵 **Nested Replies**
+  - Reply to any comment (up to 3 levels deep)
+  - Replies are indented to indicate hierarchy
+  - Full CRUD operations on replies
+
+- 🎨 **Modern UI**
+  - Clean and responsive UI using **Tailwind CSS**
+  - Mobile-friendly layout
+
+---
