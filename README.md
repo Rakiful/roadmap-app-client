@@ -5,7 +5,7 @@ A full-stack web application that allows users to view predefined roadmap items 
 ---
 
 ## 🌐 Live Site
-[🔗 Click here to visit the live site](https://your-live-site-url.com)
+[🔗 Click here to visit the live site](https://career-roadmap-rakiful.netlify.app/)
 
 ---
 
